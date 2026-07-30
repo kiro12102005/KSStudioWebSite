@@ -1,10 +1,22 @@
-import { links, profile } from "@/data/site";
+import { brand, links, profile } from "@/data/site";
 import { IconLink } from "./IconLink";
+import { Logo } from "./Logo";
 
 export function Hero() {
   return (
     <section id="top" className="border-b border-border px-6 py-20">
       <div className="mx-auto flex max-w-3xl flex-col gap-6">
+        <div className="flex items-center gap-3">
+          <Logo size={44} />
+          <div className="flex flex-col">
+            <span className="text-xs font-medium tracking-[0.2em] text-muted uppercase">
+              {brand.eyebrow}
+            </span>
+            <span className="text-lg font-semibold tracking-tight">
+              {brand.name}
+            </span>
+          </div>
+        </div>
         <div className="flex flex-col gap-2">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
             {profile.name}

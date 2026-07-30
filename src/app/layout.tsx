@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "木田颯真 | Portfolio",
+  title: "KS Studio | 木田颯真 Portfolio",
   description:
-    "木田颯真のポートフォリオサイト。個人開発しているアプリの紹介や自己紹介、外部プラットフォームへのリンクをまとめています。",
+    "KS Studio — 木田颯真のポートフォリオサイト。個人開発しているアプリの紹介や自己紹介、外部プラットフォームへのリンクをまとめています。",
 };
 
 export default function RootLayout({

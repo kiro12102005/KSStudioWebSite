@@ -1,4 +1,4 @@
-import { contactEmail, profile } from "@/data/site";
+import { brand, contactEmail } from "@/data/site";
 
 export function Footer() {
   return (
@@ -15,7 +15,7 @@ export function Footer() {
           {contactEmail}
         </a>
         <p className="mt-8 text-xs text-muted">
-          © 2026 {profile.name}
+          © 2026 {brand.name}
         </p>
       </div>
     </footer>

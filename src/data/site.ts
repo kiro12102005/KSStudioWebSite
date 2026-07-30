@@ -1,3 +1,8 @@
+export const brand = {
+  name: "KS Studio",
+  eyebrow: "Personal Dev Studio",
+} as const;
+
 export const profile = {
   name: "木田 颯真",
   title: "System Design Eng. Student",
