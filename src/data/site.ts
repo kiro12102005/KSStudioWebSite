@@ -51,4 +51,4 @@ export const links: LinkItem[] = [
   },
 ];
 
-export const contactEmail = "k.soma12102005@gmail.com";
+export const contactEmail = "contact.somakida@gmail.com";
