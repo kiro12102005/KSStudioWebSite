@@ -40,7 +40,7 @@ export const links: LinkItem[] = [
   {
     label: "ココナラ",
     short: "coco",
-    href: "https://coconala.com/mypage/dashboard_provider?ref=common_header",
+    href: "https://coconala.com/users/6216253",
     description: "作業依頼・見積もりの相談はこちらから。",
   },
   {
