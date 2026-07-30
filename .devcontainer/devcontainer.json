@@ -1,0 +1,16 @@
+{
+  "name": "Web-Development-Env",
+  // Node.jsの公式開発環境をベースにする
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  // Claude Codeを自動インストール
+  "postCreateCommand": "sudo npm install -g @anthropic-ai/claude-code",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",      // コードのバグチェック
+        "esbenp.prettier-vscode",      // コードの自動整形
+        "formulahendry.auto-rename-tag" // HTMLタグの自動修正
+      ]
+    }
+  }
+}
